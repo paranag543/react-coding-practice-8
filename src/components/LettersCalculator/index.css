@@ -1,0 +1,58 @@
+/* Write your code here. */
+.app-container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  padding: 10px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-class {
+  height: 250px;
+  width: 350px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.heading {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 40px;
+}
+
+.label {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.phrase-input {
+  height: 30px;
+  width: 240px;
+  background-color: transparent;
+  border-color: #ffffff;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.button-class {
+  height: 40px;
+  width: 150px;
+  color: #1d976c;
+  background-color: #ffffff;
+  font-family: 'Roboto';
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+}
